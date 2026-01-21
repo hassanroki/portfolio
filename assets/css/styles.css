@@ -462,7 +462,7 @@ section.active {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
-  height: 55rem;
+  height: 60rem;
   overflow: auto;
 }
 
@@ -494,7 +494,7 @@ section.active {
 }
 
 .resume-item h3 {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
 }
 
 .resume-detail.education .resume-list {
