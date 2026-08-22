@@ -180,14 +180,14 @@ section.active {
   display: inline-block;
   color: transparent;
   -webkit-text-stroke: 0.07rem var(--main-color);
-  animation: display-text 16s linear infinite;
-  animation-delay: calc(-4s * var(--i));
+  animation: display-text 12s linear infinite;
+  animation-delay: calc(-6s * var(--i));
 }
 
 @keyframes display-text {
   25%,
   100% {
-    display: none;
+      display: none;
   }
 }
 
@@ -199,18 +199,18 @@ section.active {
   color: var(--main-color);
   white-space: nowrap;
   overflow: hidden;
-  animation: fill-text 4s linear infinite;
+  animation: fill-text 3s linear infinite;
 }
 
 @keyframes fill-text {
   10%,
   100% {
-    width: 0;
+      width: 0;
   }
 
   70%,
   90% {
-    width: 100%;
+      width: 100%;
   }
 }
 
