@@ -50,20 +50,20 @@
       <h2>
         I'm
         <span style="--i: 2" data-text="Full Stack Laravel Developer">
-            Full Stack Laravel Developer
+          Full Stack Laravel Developer
         </span>
-    
+
         <span style="--i: 1" data-text="Backend Developer">
-            Backend Developer
+          Backend Developer
         </span>
-    </h2>
+      </h2>
       <p>
         I am a person with a positive attitude. Self-confidence, quick learner
         hard worker, to solve any problem in an effective manner in a
         challenging position.
       </p>
       <div class="btn-sci">
-        <a href="https://drive.google.com/file/d/1fYwCIon1G6qv19Pg-9a-j4NO0ODKm7ye/view?usp=sharing" class="btn"
+        <a href="https://docs.google.com/document/d/1OZPUWlwPMOIdNYUIlSbgT34ayrIvUkUp/edit?usp=sharing&ouid=114836673120468737250&rtpof=true&sd=true" class="btn"
           target="_blank">Download CV</a>
         <div class="sci">
           <a href="https://github.com/hassanroki" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -224,7 +224,7 @@
 
             <div class="resume-item">
               <p class="year">Oct 2020 - Nov 2022</p>
-              <h3>Data Entry Operator</h3>
+              <h3>Data Entry & Billing Operator</h3>
               <p class="company">DMFR Molecular Lab & Diagnostics</p>
               <p>
                 Ensured data accuracy, maintained records, and supported admin
@@ -254,7 +254,7 @@
               <p>Department <span>B.sc in CSE</span></p>
               <p>Institute <span>Green University of Bangladesh</span></p>
               <p>Result <span>CGPA 3.05 (out of 4)</span></p>
-              <p>Pass <span>2023</span></p>
+              <p>Pass <span>2022</span></p>
             </div>
 
             <div class="resume-item">
@@ -423,12 +423,12 @@
             software.
           </p>
           <div class="tech">
-            <p>PHP, Laravel</p>
+            <p>PHP, Laravel, Vue.js</p>
           </div>
           <div class="live-github">
-            <a href="https://www.larasoftbd.com/" target="_blank"><i class="fas fa-circle"></i><span>Live
+            <a href="https://larasoftbd.xyz/" target="_blank"><i class="fas fa-circle"></i><span>Live
                 Project</span></a>
-            <a href="https://www.larasoftbd.com/" target="_blank"><i class="fa-brands fa-github"></i><span>Github
+            <a href="https://larasoftbd.xyz/" target="_blank"><i class="fa-brands fa-github"></i><span>Github
                 Repository</span></a>
           </div>
         </div>
@@ -441,12 +441,12 @@
             and daily reports. Ideal for retail stores and restaurants, it ensures smooth and efficient business
             operations.</p>
           <div class="tech">
-            <p>MySQL, PHP, Laravel</p>
+            <p>PHP, Laravel, RestAPI</p>
           </div>
           <div class="live-github">
-            <a href="https://github.com/hassanroki/point-of-sales" target="_blank"><i
+            <a href="https://ims.larasoftbd.xyz/" target="_blank"><i
                 class="fas fa-circle"></i><span>Live Project</span></a>
-            <a href="https://github.com/hassanroki/point-of-sales" target="_blank"><i
+            <a href="https://ims.larasoftbd.xyz/" target="_blank"><i
                 class="fa-brands fa-github"></i><span>Github Repository</span></a>
           </div>
         </div>
@@ -459,31 +459,12 @@
             and responsive user experience.
           </p>
           <div class="tech">
-            <p>HTML5, CSS3, JavaScript, PHP, Laravel</p>
+            <p>PHP, Laravel, Inertia.js, Vue.js, TypeScript</p>
           </div>
           <div class="live-github">
-            <a href="https://github.com/hassanroki/laravel11ecommerce" target="_blank"><i
+            <a href="https://shopbd.larasoftbd.xyz/" target="_blank"><i
                 class="fas fa-circle"></i><span>Live Project</span></a>
-            <a href="https://github.com/hassanroki/laravel11ecommerce" target="_blank"><i
-                class="fa-brands fa-github"></i><span>Github Repository</span></a>
-          </div>
-        </div>
-        <div class="portfolio-detail">
-          <p class="numb">04</p>
-          <h3>School Management</h3>
-          <p>
-            Our school management system, built with PHP and Laravel, streamlines academic and administrative tasks
-            efficiently. It offers features like student enrollment, attendance tracking, exam management, and staff
-            coordination. Designed for ease of use, it ensures smooth communication between teachers, students, and
-            parents.
-          </p>
-          <div class="tech">
-            <p>HTML5, CSS3, PHP, Laravel</p>
-          </div>
-          <div class="live-github">
-            <a href="https://github.com/hassanroki/learn_with_cse" target="_blank"><i
-                class="fas fa-circle"></i><span>Live Project</span></a>
-            <a href="https://github.com/hassanroki/learn_with_cse" target="_blank"><i
+            <a href="https://shopbd.larasoftbd.xyz/" target="_blank"><i
                 class="fa-brands fa-github"></i><span>Github Repository</span></a>
           </div>
         </div>
@@ -500,9 +481,6 @@
             </div>
             <div class="img-item">
               <img src="assets/imgs/project-3.png" alt="" />
-            </div>
-            <div class="img-item">
-              <img src="assets/imgs/project-4.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -556,19 +534,33 @@
         </div>
       </div>
 
+
       <div class="contact-box">
-        <form action="">
-          <h2 class="heading">Contact <span>Me!</span></h2>
+        <form id="contactForm">
+
+          <h2 class="heading">
+            Contact <span>Me!</span>
+          </h2>
+
           <div class="field-box">
-            <input type="text" name="" id="" placeholder="Full Name" required />
-            <input type="email" name="" id="" placeholder="Email Address" required />
-            <input type="text" name="" id="" placeholder="Phone Number" required />
-            <input type="text" name="" id="" placeholder="Email Subject" required />
-            <textarea name="" id="" placeholder="Your Message" required></textarea>
+
+            <input type="text" name="name" placeholder="Full Name" autocomplete="name" required>
+
+            <input type="email" name="email" placeholder="Email Address" autocomplete="email" required>
+
+            <input type="text" name="subject" placeholder="Email Subject" required>
+
+            <textarea name="message" placeholder="Your Message" required></textarea>
+
           </div>
-          <button type="submit" class="btn">Send Message</button>
+
+          <button type="submit" class="btn" id="contactSubmit">
+            Send Message
+          </button>
+
         </form>
       </div>
+
     </div>
   </section>
   <!-- Contact Section End -->
